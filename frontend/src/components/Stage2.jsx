@@ -59,7 +59,7 @@ export default function Stage2({ rankings, labelToModel, aggregateRankings }) {
                 : 'bg-secondary text-muted-foreground hover:bg-muted'
             )}
           >
-            {shortName(rankings[i].model)}
+            {shortName(r.model)}
           </button>
         ))}
       </div>
